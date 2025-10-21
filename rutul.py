@@ -679,7 +679,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 /stats - статистика словаря
 /pay - оплатить доступ
 /myid - узнать свой ID
-/feedback - оставить отзыв
+/feedback1 - оставить отзыв
 /help - помощь
 /cancel - отменить добавление"""
     await update.message.reply_text(welcome_text)
@@ -1107,4 +1107,5 @@ print("🛠 Админ-панель: /admin (для @m001rutul)")
 print("📢 Канал: https://t.me/Rutultranslate")
 
 app.run_polling()
+
 
